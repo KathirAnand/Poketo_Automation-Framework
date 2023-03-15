@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Poketo]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LoginModule(failed)">
+    <classes>
+      <class name="com.poketo.testscripts.LoginModule">
+        <methods>
+          <include name="login" invocation-numbers="0 1 2"/>
+          <include name="launch"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.poketo.testscripts.LoginModule -->
+    </classes>
+  </test> <!-- LoginModule(failed) -->
+</suite> <!-- Failed suite [Poketo] -->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.poketo.testbase.TestBase"/>
+      <class name="com.poketo.testscripts.LoginModule"/>
+      <class name="com.poketo.utills.TestDataProvider"/>
+      <class name="com.poketo.utills.ExtentReport"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
